@@ -1,0 +1,14 @@
+diff --git a/node_modules/vuepress-theme-reco/components/HomeBlog.vue b/node_modules/vuepress-theme-reco/components/HomeBlog.vue
+index 3ac9656..570b46d 100644
+--- a/node_modules/vuepress-theme-reco/components/HomeBlog.vue
++++ b/node_modules/vuepress-theme-reco/components/HomeBlog.vue
+@@ -113,7 +113,8 @@ export default {
+         background: `
+           url(${this.$frontmatter.bgImage
+     ? this.$withBase(this.$frontmatter.bgImage)
+-    : require('../images/bg.svg')}) center/cover no-repeat
++    // : require('../images/bg.svg')}) center/cover no-repeat
++    : require('/img/bg.png')}) center/cover no-repeat
+         `
+       }
+       const {
