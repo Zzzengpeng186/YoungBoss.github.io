@@ -1,8 +1,8 @@
 const sidebar = require("./sidebar.js");
 module.exports = {
   // 网站标题
-  title: "白月初的博客",
-  description: "正因你我生于繁华,弥足之花方显珍贵",
+  title: "YoungBoss的博客",
+  // description: "正因你我生于繁华,弥足之花方显珍贵",
   dest: "dist", // 打包路径
   base: "/YoungBoss.github.io/",
   head: [
@@ -80,7 +80,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/Silence-dream",
+            link: "https://github.com/YoungBoss",
             icon: "reco-github",
           },
         ],
@@ -119,8 +119,8 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
-    author: "Silence-dream ",
-    authorAvatar: "https://avatars.githubusercontent.com/u/42824008?v=4",
+    author: "YoungBoss ",
+    authorAvatar: "/logo.jpg",
     record: "xxxx",
     startYear: "2017",
     // 备案

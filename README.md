@@ -1,9 +1,9 @@
 ---
 home: true
-heroText: 博客
-tagline: 正因你我生于繁华,弥足之花方显珍贵
+heroText: YoungBoss博客
+# tagline: 正因你我生于繁华,弥足之花方显珍贵
 # 首页按钮
-actionText: 巅峰之路
+actionText: YoungBoss
 actionLink: /docs/Front-end/Vue/
 lang: zh-cn
 # 首页图
